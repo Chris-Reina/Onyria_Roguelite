@@ -1,11 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using DoaT.UI;
 using UnityEngine;
 
-public class UIOpenSettingsButton : MonoBehaviour
+public class UIOpenSettingsButton : UIButton
 {
-    public void OpenSettings()
-    {
-        
-    }
+    
 }

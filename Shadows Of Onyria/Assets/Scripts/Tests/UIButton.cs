@@ -1,5 +1,4 @@
 ﻿using System;
-using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -9,7 +8,7 @@ namespace DoaT.UI
     {
         public event Action<bool> OnInteraction;
         public event Action<bool> OnSelectionStateChange;
-        public event Action<bool> OnInteractableStateChange;
+        public event Action<bool> OnInteractableStateChange; //TODO: Implement Interactable state change event.
 
         protected event Action OnInteractionSucceeded;
         
@@ -56,6 +55,8 @@ namespace DoaT.UI
         public override void OnPointerClick(PointerEventData eventData)
         {
             base.OnPointerClick(eventData);
+            
+            OnInteraction?.Invoke(interactable);
 
             if(interactable) OnInteractionSucceeded?.Invoke();
             //EventManager.Raise(UIEvents.OnButtonSubmit, interactable);

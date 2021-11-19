@@ -1,18 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using DoaT.UI;
 using UnityEngine;
 
-public class UILoadGameButton : MonoBehaviour
+public class UILoadGameButton : UIButton
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

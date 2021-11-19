@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Theoden_Death_01
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 70bb015890dd2594dace87ce9ec7c3c1, type: 3}
-  audioMixer: {fileID: 0}
+  audioMixer: {fileID: -2596805583994276479, guid: b9252c7d0adbd544b988a592cb7209c4, type: 2}
   loop: 0
   volume: 0.358
   pitch:

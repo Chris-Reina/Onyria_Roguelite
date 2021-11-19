@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9860a1aaad2e64cb4479ddd7a23e5b, type: 3}
   m_Name: Theoden_Combo_Swoosh
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 87b6023ea0c6501479ab4f8a0da37fd7, type: 3}
-  audioMixer: {fileID: -2596805583994276479, guid: b9252c7d0adbd544b988a592cb7209c4,
-    type: 2}
+  clip: {fileID: 8300000, guid: 343efe63043a03a48aa774db0a8500c0, type: 3}
+  audioMixer: {fileID: -2596805583994276479, guid: b9252c7d0adbd544b988a592cb7209c4, type: 2}
   loop: 0
   volume: 0.25
   pitch:
