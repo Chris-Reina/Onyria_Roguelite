@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 723634b9478daf1488fc331931de6e6a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dashClip: {fileID: 1827226128182048838, guid: b28a88e97e0b5a9469f5cd73f1a4ec93, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

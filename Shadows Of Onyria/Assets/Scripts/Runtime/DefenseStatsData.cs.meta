@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 819591932fe43374996a61b5592b77b4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - physicalResistance: {fileID: 11400000, guid: 0861bf663268f4e458cd22e36141b308, type: 2}
+  - poisonResistance: {fileID: 11400000, guid: 8fc392f7021327c40b0b1cdc1d78a65a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

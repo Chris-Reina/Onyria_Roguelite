@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3780ebd2970748c7ad136403f750b706, type: 3}
+  m_Name: CrystalSkullModelData
+  m_EditorClassIdentifier: 
+  rotationSpeed: 1.442
+  movementDetectionThreshold: 0.0378
+  rotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.33381504
+      value: 0.844645
+      inSlope: 0.86573696
+      outSlope: 0.86573696
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.055820882
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  movementSpeed: 2
+  nodeDetection: 0.4
+  stunDuration: 0.6
+  stunAnimation: {fileID: 1827226128182048838, guid: 6ecad711242b3814d98520dc2686bcf4, type: 3}
+  attack:
+    prepareAnimation: {fileID: 1827226128182048838, guid: 04a79adab5a604b419755ff24e43944b, type: 3}
+    attackExecution: {fileID: 11400000, guid: f24772d17ba94154f81e0e10fd3f03b1, type: 2}
+    speed: 20
+    movementRange: 8
+    cooldown: 1.5
+    detection: {fileID: 11400000, guid: d2274b9921ed9aa40a336d87ccaf8e00, type: 2}
+    damage:
+      min: 7
+      max: 10
+      relativeMin: 0
+      relativeMax: 20
+    criticalChance: 0
+    criticalMultiplier: 1
+  viewDistance: 15
+  viewAngle: 180
+  soulType: {fileID: 11400000, guid: 0d2a82dcebd64cf40ab8aa4dad96b698, type: 2}
+  gold: 50

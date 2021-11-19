@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d746c121ac11346b65b39ac374983b, type: 3}
+  m_Name: Crystal Skull Attack
+  m_EditorClassIdentifier: 
+  BeginInputType: 0
+  EndInputType: 0
+  Duration: 0.4
+  DamageMultiplier: 1
+  Cooldown: 1
+  ComboWaitTime: 1
+  Animations:
+  - {fileID: -1472594234713045922, guid: 04a79adab5a604b419755ff24e43944b, type: 3}
+  ComboLockPercentage: 0.457
+  ComboUnlockPercentage: 0.564
+  effects:
+  - effectExecutionTime: 0.468
+    detection: {fileID: 11400000, guid: d2274b9921ed9aa40a336d87ccaf8e00, type: 2}
+    executions:
+    - {fileID: 11400000, guid: cc3efaef095d7954cb497e02a93c39f0, type: 2}

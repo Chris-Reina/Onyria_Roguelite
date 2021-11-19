@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d746c121ac11346b65b39ac374983b, type: 3}
+  m_Name: Attack_Theoden_Base_Main [0]
+  m_EditorClassIdentifier: 
+  BeginInputType: 1
+  EndInputType: 0
+  Duration: 0.245
+  DamageMultiplier: 1
+  Cooldown: 0
+  ComboWaitTime: 0.35
+  Animations:
+  - {fileID: 1827226128182048838, guid: 5937e88a2a780354db1e3e7e1011b17d, type: 3}
+  ComboLockPercentage: 0.302
+  ComboUnlockPercentage: 0.832
+  effects:
+  - effectExecutionTime: 0.14
+    detection: {fileID: 11400000, guid: a782158635173044f8e60ee07c98be92, type: 2}
+    executions:
+    - {fileID: 11400000, guid: 41bf080c81b9bc149b11d2a834f38dd6, type: 2}
+    - {fileID: 11400000, guid: c6148c01f30a94542b855addd85090ef, type: 2}
+  - effectExecutionTime: 0.14
+    detection: {fileID: 11400000, guid: 69532d398d4f53441b065dac2172d742, type: 2}
+    executions:
+    - {fileID: 11400000, guid: 44ebe907a4ef9714ea83e0de73f16563, type: 2}

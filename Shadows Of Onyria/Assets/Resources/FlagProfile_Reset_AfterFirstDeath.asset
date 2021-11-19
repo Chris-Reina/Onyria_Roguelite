@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ed90851cdd7c5d4fa7512e61844a4e2, type: 3}
+  m_Name: FlagProfile_Reset_AfterFirstDeath
+  m_EditorClassIdentifier: 
+  flags:
+  - {fileID: 11400000, guid: 139d395ebb919a742844a1fff0e721c9, type: 2}
+  - {fileID: 11400000, guid: 524b79277fa431a4d9fa7c0263109a66, type: 2}
+  - {fileID: 11400000, guid: 2e2cb595321ef274a9f71db1b85c0fe3, type: 2}
+  - {fileID: 11400000, guid: 742e95f07782f8b4eb885c8151a0039a, type: 2}
+  - {fileID: 11400000, guid: 613fbc53f77d2534d96a1c2822fe66ea, type: 2}

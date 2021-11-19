@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48e9f585a4af44ae80eecabc73515dca, type: 3}
+  m_Name: Controller_SkullMainAttack
+  m_EditorClassIdentifier: 
+  soulType: {fileID: 11400000, guid: 0d2a82dcebd64cf40ab8aa4dad96b698, type: 2}
+  attackChain:
+  - {fileID: 11400000, guid: 791d208bf5ca61f478ce302c2bda3a3f, type: 2}
+  - {fileID: 11400000, guid: 2b66eb1ad003b404faf2ea9bc6b2fba2, type: 2}
+  - {fileID: 11400000, guid: 2033d2519510ac44dbdf838e507c6a82, type: 2}

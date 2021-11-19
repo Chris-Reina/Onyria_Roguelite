@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b9c79695ce4937a30f2b91b40fd4b0, type: 3}
+  m_Name: DarknessPotion
+  m_EditorClassIdentifier: 
+  icon: {fileID: -3564620814860235699, guid: 42dd7aeac1335ce4b9fcc00f9e1bc776, type: 3}
+  header: Darkness Potion
+  description: 'Recovers [0] Darkness. Consumed on Use. '
+  beginDynamicDataMarker: 91
+  endDynamicDataMarker: 93
+  buyAmount: 250
+  sellAmount: 125
+  amount: 500

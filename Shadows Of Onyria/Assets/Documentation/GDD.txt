@@ -1,0 +1,82 @@
+1 - Title
+    1.1 - Game Name
+        Shadows of Onyria
+
+2 - Game Overview
+    2.1 - Game Concept
+        The game is about an undead warrior that fights hordes of creatures while he uses the strength of his enemies to find a way to break his curse and die once and for all
+    2.2 - Genre
+        Action Based Dungeon-Crawler/Rogue-Like
+    2.3 - Target Audience
+        TBD
+    2.4 - Game Flow Summary (How does the player move through the game. Both through framing interface and the game itself.)
+        TBD
+    2.5 - Look and Feel (What is the basic look and feel of the game?  What is the visual style?)
+        TBD
+    
+3 -	Gameplay and  Mechanics
+    3.1 - Gameplay
+        3.1.1 - Game Progression
+            At the start of a run the player must complete a series of challenges in the form of enemy waves whilst choosing which rooms to visit next,
+            after a set number of rooms explored they must confront a Boss-Fight, upon death they lose all temporary loot and are given a number of souls
+            with which they can improve their power and start a new run, as well as experience points to level his own basic traits.
+        3.1.2 - Mission/challenge Structure
+            As the run is composed of rooms, each room has 1 to 2 zones which will begin 2 to 3 waves of enemies only finishing once every enemy is killed,
+            after 10 o this rooms are completed they must face a multi-faced boss encounter that on completion marks the end of the DEMO.
+        3.1.3 - Puzzle Structure
+            Each wave of the encounters will have a number of different enemies that have unique behaviours that will challenge how the player approaches them
+            relative to how they decided to progress their characters power systems.
+        3.1.4 - Objectives (What are the objectives of the game?)
+            The objective of the game is to defeat the boss which is shown killing the player, thus creating a hook based on vengeance.
+        3.1.5 - Play Flow (How does the game flow for the game player)
+            The game flows at a rapid pace, giving the player the option to decompress once a room is cleared, and as soon as the next room is visited the next
+            encounter begins. The main hub (before each run beings) servers as a place to rest between runs and also as the platform in which the player will be
+            able to customize his game style.
+        
+    3.2 - Mechanics – What are the rules to the game, both implicit and explicit.  This is the model of the universe that the game works under.  Think of it as a simulation of a world, how do all the pieces interact?  This actually can be a very large section.
+        3.2.1 - Physics – How does the physical universe work?
+            All objects obey physics mechanics in a standard fashion, yet not many interactions will make use of this, as it's a not in the scope of the gameplay.
+        3.2.2 - Movement in the game
+            The player will have a standard locomotion system with no jump mechanic (can move in x and z axis) and a dash with low cooldown which will propel the 
+            player in the direction he is moving whilst making him invulnerable during it.
+        3.2.3 - Objects – how to pick them up and move them 
+            For any pickable object the player will have to get near them and a vacuum mechanic will pick them for him, and any interactable object (door, boxes, etc)
+            will be attackable and some even destroyable.
+        3.2.4 - Combat
+            Main Attack - An attack that uses the character physical weapon to do mainly aoe or cleave damage.
+            Ranged Attack - An attack that can be channelled, and thrown on release, mainly single target or explosive
+            Special Attack - A special attack which effect will be determined by the souls the player choose to imbue himself with.
+        3.2.5 - Economy
+            TBD
+        
+    3.3 - Game Options – What are the options and how do they affect game play and mechanics?
+    3.4 - Replaying and Saving 
+    3.5 - Cheats and Easter Eggs
+    
+4.	Story, Setting and Character
+    4.1 - Story and Narrative – Includes back story, plot elements, game progression, and cut scenes.  Cut scenes descriptions include the actors, the setting, and the storyboard or script.
+    4.2 - Game World
+        4.2.1 - General look and feel of world
+        4.2.2 - Areas, including the general description and physical characteristics as well as how it relates to the rest of the world (what levels use it, how it connects to other areas)
+    4.3 - Characters.  Each character should include the back story, personality, appearance, animations, abilities, relevance to the story and relationship to other characters
+     
+5.	Levels
+    5.1 - Levels.  Each level should include a synopsis, the required introductory material (and how it is provided), the objectives, and the details of what happens in the level.  Depending on the game, this may include the physical description of the map, the critical path that the player needs to take, and what encounters are important or incidental.
+    5.2 - Training Level
+    
+6.	Interface
+    6.1 - Visual System.  If you have a HUD, what is on it?  What menus are you displaying? What is the camera model?
+    6.2 - Control System – How does the game player control the game?   What are the specific commands?
+    6.3 - Audio, music, sound effects
+    6.4 - Help System
+    
+7.	Artificial Intelligence
+    7.1 - Opponent and Enemy AI – The active opponent that plays against the game player and therefore requires strategic decision making 
+    7.2 - Non-combat and Friendly Characters
+    7.3 - Support AI -- Player and Collision Detection, Pathfinding
+    
+8.	Technical 
+    8.1 - Target Hardware        
+    8.2 - Development hardware and software, including Game Engine
+    
+9.	Game Art – Key assets, how they are being developed.  Intended style.

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e2d47e3c33ad941ae8ce54474a6a85, type: 3}
+  m_Name: TheodenModelData
+  m_EditorClassIdentifier: 
+  data:
+    defenseData: {fileID: 11400000, guid: 000bba8da6bdede4d997b630916ffe71, type: 2}
+    baseDamage:
+      min: 10
+      max: 15
+      relativeMin: 0
+      relativeMax: 20
+    criticalChance: 0.5
+    criticalMultiplier: 1.5
+    locomotion:
+      movementSpeed: 5.7
+      rotationSpeed: 5
+      rotationCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0.1745325
+          inSlope: 1.0475724
+          outSlope: 1.0475724
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.24115026
+        - serializedVersion: 3
+          time: 0.14938012
+          value: 0.3731654
+          inSlope: 4.7089715
+          outSlope: 1.7078464
+          tangentMode: 1
+          weightedMode: 0
+          inWeight: 0.21867312
+          outWeight: 0.06017308
+        - serializedVersion: 3
+          time: 0.6721325
+          value: 0.70282304
+          inSlope: -0.041458905
+          outSlope: 0
+          tangentMode: 1
+          weightedMode: 0
+          inWeight: 0.21764632
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.70282304
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    dash:
+      dashDuration: 0.2
+      dashDistance: 5
+      dashCooldown: 0.2

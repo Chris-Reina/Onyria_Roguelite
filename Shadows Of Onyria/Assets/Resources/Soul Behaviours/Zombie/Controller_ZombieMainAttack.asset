@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 884be2e8a397cb14893e1fa26f321ea8, type: 3}
+  m_Name: Controller_ZombieMainAttack
+  m_EditorClassIdentifier: 
+  soulType: {fileID: 11400000, guid: c15c510797526a9469d34c6a63578395, type: 2}
+  attackChain:
+  - {fileID: 11400000, guid: a775609cc5618704aaf4dd8b9996ae24, type: 2}
+  - {fileID: 11400000, guid: 550b642e46599ba47b799b55a9339459, type: 2}
+  - {fileID: 11400000, guid: 27dfeddb04dc03e499c9693a949b1494, type: 2}

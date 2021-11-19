@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a5e7be7eb3454c9c81aca8bd851a09, type: 3}
+  m_Name: BansheeModelData
+  m_EditorClassIdentifier: 
+  rotationSpeed: 1.442
+  movementDetectionThreshold: 0.0378
+  rotationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.33381504
+      value: 0.844645
+      inSlope: 0.86573696
+      outSlope: 0.86573696
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.055820882
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  movementSpeed: 2
+  nodeDetection: 0.5
+  stunDuration: 0.4
+  stunAnimation: {fileID: 1827226128182048838, guid: a7bb1e766eee4fd449fb99fd8a60fe7b, type: 3}
+  summon:
+    animation: {fileID: 1827226128182048838, guid: facc2b16127e673478245ff38f525e73, type: 3}
+    cooldown: 15
+    radius: 2
+    enemyAmount: 2
+    invokableEnemy: {fileID: 11400000, guid: 07e5e34b1163b3e4bb169e5683df5cdc, type: 2}
+  channel:
+    animation: {fileID: 0}
+    cooldown: 25
+    duration: 4
+  viewDistance: 15
+  viewAngle: 180
+  soulType: {fileID: 11400000, guid: eeedbdd445a382e49988937cef82e4e0, type: 2}
+  gold: 125
