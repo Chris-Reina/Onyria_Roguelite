@@ -1,3 +1,4 @@
+using DoaT.UI;
 using UnityEngine;
 
 public class UISaveSlotsPanel : MonoBehaviour
@@ -16,21 +17,11 @@ public class UISaveSlotsPanel : MonoBehaviour
                 _saveSlotsGroup = gameObject.AddComponent<CanvasGroup>();
         }
     }
-    
-    
-}
 
-public interface ISaveSlotInteraction
-{
-    
-}
 
-public class CreateSaveInteraction : ISaveSlotInteraction
-{
-    
-}
-
-public class LoadSaveInteraction : ISaveSlotInteraction
-{
-    
+    public void DisplayPanel(ISaveSlotBehaviour saveSlotBehaviour)
+    {
+        _saveSlotsGroup.Activate();
+        saveSlotBehaviour.Interact(1);
+    }
 }

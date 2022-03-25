@@ -4,7 +4,7 @@ using UnityEngine;
 namespace DoaT.UI
 {
     public class UIButtonTextDisplay : MonoBehaviour
-    {
+    {   
         [SerializeField] private UIButton _target;
         [SerializeField] private TextMeshProUGUI _display;
 

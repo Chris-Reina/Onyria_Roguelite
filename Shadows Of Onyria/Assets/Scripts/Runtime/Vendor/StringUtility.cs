@@ -5,6 +5,12 @@ namespace DoaT
 {
     public static class StringUtility
     {
+        public static string GetExtension(string source)
+        {
+            var a = source.Split('.');
+            return a[a.Length - 1];
+        }
+        
         public static Tuple<string, int> GetDynamicString(string source, char beginAnchor, char endAnchor, string[] data)
         {
             var str = "";

@@ -91,7 +91,7 @@ namespace DoaT.Save
         public static void DeleteSaveFile(int slot) => Current.DeleteSaveFileImpl(slot);
         private void DeleteSaveFileImpl(int slot)
         {
-            ConfirmationWindow.Create(_confirmationDeleteSaveMessage, () => DeleteFile(slot));
+            ConfirmationWindow.Display(_confirmationDeleteSaveMessage, () => DeleteFile(slot));
         }
 
         private void DeleteFile(int slot)
